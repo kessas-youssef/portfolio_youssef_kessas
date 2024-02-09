@@ -1,0 +1,16 @@
+/* Blobs SVG background image via https://haikei.app/ */
+
+.blob-motion {
+    /* position: absolute; */
+    /* transform: translateY(-20%); */
+    z-index: 0;
+  }
+  
+  .blob-content {
+    z-index: 1;
+  }
+  
+  .blobs {
+    /* width: 100%; */
+    background: url('../Images/blobs.svg') no-repeat bottom / cover;
+  }

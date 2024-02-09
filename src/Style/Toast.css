@@ -1,0 +1,18 @@
+.toast {
+    position: absolute;
+    display: inline-block;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1vw;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    box-shadow:
+        2px 2px 1px 2px aqua,
+        -2px -2px 1px 2px aqua,
+        2px -2px 1px 2px aqua,
+        -2px 2px 1px 2px aqua;
+    text-align: center;
+}

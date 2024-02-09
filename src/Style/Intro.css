@@ -1,0 +1,27 @@
+.intro {
+    font-size: 2vw;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.intro > * {
+    width: 40%;
+}
+
+.intro__text {
+    padding-inline: 2em;
+}
+
+.intro__text, .intro__text  * {
+    color: white;
+}
+.intro__highlightedText {
+    color: #01f9f9f5;
+}
+.intro__smallerText {
+    font-size: .5em;
+}
